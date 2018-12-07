@@ -12,11 +12,13 @@ OmniScript runs by default on a OmniScriptUniversalPage, but if we need to overw
 6. Insert the previously copied script from Step 3 into the Visualforce page.
 7. Click on Save.
 
+
 ## Linking VF Page to OmniScript
 1. In the OmniScript, under Script Configuration, go to Visualforce Pages section.
 2. Click on `Add New Visuaforce Page For Preview`
 3. Name : TrainingUIUXFlow, Label : c__TrainingUIUXFlow?&layout=newport
 4. Go to Preview of OmniScript, on the dropdown select the last option TrainingUIUXFlow.
+
 
 ## Get `Path` Component from NewPort
 1. Run NewPort Design System on you local `npm start`
