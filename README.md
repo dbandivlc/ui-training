@@ -28,4 +28,4 @@ For more info : https://github.com/vlocityinc/newport-design-system
 4. Create a Visualforce component and name it as `TrainingStepChart`.
 5. Add `<c:TrainingStepChart />` under the script tag after initializing AngularJS in Visualforce page.
 
-Go back to your OmniScript and hit the preview tab, you will be having a new UI Navigation.
+Go back to your OmniScript and hit the preview tab, select TrainingUIUXFlow page from dropdown, you will be having a new UI Navigation.
