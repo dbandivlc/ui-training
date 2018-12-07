@@ -1,4 +1,4 @@
-# Navigation
+# Exercise 1 - Navigation
 --------
 
 OmniScript runs by default on a OmniScriptUniversalPage, but if we need to overwrite the out of the box functionality, here are the following steps.
@@ -21,7 +21,7 @@ OmniScript runs by default on a OmniScriptUniversalPage, but if we need to overw
 
 
 ## Get `Path` Component from NewPort
-1. Run NewPort Design System on you local `npm start`
+1. Run NewPort Design System on your local `npm start`
 For more info : https://github.com/vlocityinc/newport-design-system
 2. Select `Path` from Component List.
 3. Copy the HTML by clicking on the code icon on bottom right of the panel.
