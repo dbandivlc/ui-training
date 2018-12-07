@@ -37,10 +37,9 @@ vlocity.cardframework.registerModule.controller('trainingUIUXFlowStepController'
 ```
 vlocity.cardframework.registerModule.controller('trainingUIUXFlowCarSelectController', ['$scope', function($scope) {
     $scope.onTrainingSelectItem = function(selectedCar){
-        console.info(selectedCar);
         $scope.bpTree.response.searchCars.selectCar= [{
-            id : selectedCar['Serial Number'],
-            'Product Name' : selectedCar['Product Name']
+            id : ['**CODE - Find the key from to map to id**'],
+            'Product Name' : ['**CODE - Find the key from to map to id**']
         }]
     }
 }]);
