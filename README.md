@@ -44,3 +44,5 @@ vlocity.cardframework.registerModule.controller('trainingUIUXFlowCarSelectContro
     }
 }]);
 ```
+
+To verify the functionality is working, go back to the preview of OmniScript, Search for Brand Name, you should see the Selectable Items getting populated. Select one of the product from the selectable items, the data should be passed into the dataJSON.
