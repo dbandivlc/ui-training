@@ -19,4 +19,4 @@ $scope.pageSize = $scope.bpTree.children[$scope.bpTree.asIndex].children[0].eleA
 pageSize : 3
 usePagination : true
 
-
+Preview the OmniScript, you should be able to see 3 items rendered on the page with pagination enabled.
