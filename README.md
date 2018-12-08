@@ -14,7 +14,7 @@ Before getting started ensure you have Node JS installed : https://nodejs.org/
 4. Create a `properties` file in the root folder : `build_training.properties`
 5. Create a folder named `dataPacksJobs` and create Job file : `DataPack.yaml`
 6. Download Training zip file from Groups - Install SetUp DataPack - Vlocity Build.
-7. Extract the folder from zipfile and add it in the root folder. 
+7. Extract the folder from Training zipfile and add it in the root folder. 
 vlocity-build/
 ├── Training
   ├── Attachment
