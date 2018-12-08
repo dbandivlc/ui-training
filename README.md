@@ -28,13 +28,7 @@ vlocity.cardframework.registerModule.controller('trainingUIUXFlowStepController'
  ng-controller="trainingUIUXFlowStepController"
 ```
 6. Clone the template used for Selectable Item `omniNewport-vlcSelectableItem` and rename it as `omniNewport-vlcTrainingSelectableItem`.
-6. Link the controller into the HTML part of the template and update `ng-repeat`
-```
- ng-controller="trainingUIUXFlowCarSelectController"
- ng-repeat='item in allCars'
-```
-7. Update the OOTB capability of selecting the product by adding `ng-change='onTrainingSelectItem(item)'` on input checkbox.
-8. Add the Javascript in the JS part of the template
+7. Add the Javascript in the JS part of the template
 ```
 vlocity.cardframework.registerModule.controller('trainingUIUXFlowCarSelectController', ['$scope', function($scope) {
     $scope.onTrainingSelectItem = function(selectedCar){
@@ -45,5 +39,12 @@ vlocity.cardframework.registerModule.controller('trainingUIUXFlowCarSelectContro
     }
 }]);
 ```
+8. Link the controller into the HTML part of the template and update `ng-repeat`
+```
+ ng-controller="trainingUIUXFlowCarSelectController"
+ ng-repeat='item in allCars'
+```
+9. Update the OOTB capability of selecting the product by replacing `onSelectItem` function to `ng-change='onTrainingSelectItem(item)'` on input checkbox.
+
 
 To verify the functionality is working, go back to the preview of OmniScript, Search for Brand Name, you should see the Selectable Items getting populated. Select one of the product from the selectable items, the data should be passed into the dataJSON.
