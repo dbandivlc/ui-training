@@ -26,7 +26,7 @@ BLACK : "#000000"
 4. Save your changes, you should be able to see the change in the previewer. 
 5. Run `npm run-script dist` in your terminal, this will 
 6. Find the `.dist` folder and zip the contents inside the folder.
-7. Upload the folder to Static Resource
+7. Upload the folder to Static Resource and name it as TrainingNDS
 8. Reference the folder from your Visualforce Page.
 ```
 <apex:stylesheet value="{!URLFOR($Resource.TrainingNDS, 'assets/styles/vlocity-newport-design-system.css')}"/>
