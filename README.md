@@ -10,6 +10,7 @@ For the Vlocity UI Training, please make sure you have the following.
 ## Install Dependencies for Training
 1. Download the datapack `TrainingUIFlow` and push it to Salesforce org using Vlocity Build.
 2. Upload `TrainingImages` into Salesforce Static Resource.
+3. Deploy `TrainingProducts` into Salesforce using Vlocity Build.
 
 ## Cheatsheet
 1. OOTB Templates list
