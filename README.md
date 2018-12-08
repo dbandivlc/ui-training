@@ -75,4 +75,4 @@ Create a new object with Label : `CarBrands` and Object Name : `CarBrands`
 8. Run the following command in the terminal
 `vlocity packDeploy -propertyfile build_training.properties -job DataPack.yaml`
 
-Login to your org using your browser, you should be able to see Product2, OmniScripts, DataRaptors and Integration Procedures installed.
+Login to your org using your browser, you should be able to see Product2, OmniScripts, DataRaptors and Integration Procedures installed. Once verified, upload the `TrainingImages` into Static Resources in Salesforce.
