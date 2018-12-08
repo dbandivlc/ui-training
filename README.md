@@ -24,7 +24,11 @@ vlocity.cardframework.registerModule.controller('trainingUIUXFlowCarSelectContro
 
 3. Invoke a DataRaptor from Angular JS.
 ```
-$scope.bpService.GenericInvoke(className, classMethod, angular.toJson(inputMap), '{}').then(function(result){
-    $scope.allCars = JSON.parse(result).OBDRresp.selectCar;
+var className = 'vlocity_ins.DefaultDROmniScriptIntegration';
+var classMethod = 'invokeOutboundDR';  
+var inputMap = {"DRParams":{"Key":$scope.bpTree.response.JSONPath},"Bundle":"DRName"};
+var options = '{}';
+$scope.bpService.GenericInvoke(className, classMethod, angular.toJson(inputMap), options).then(function(result){
+    //result from DataRaptor
 });
 ```
