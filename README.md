@@ -1,4 +1,4 @@
-# Vlocity Newport Design System
+# Exercise 1.1 - Vlocity Newport Design System
 
 Welcome to the [Vlocity Newport Design System] brought to you by [Vlocity](https://vlocity.com).
 
