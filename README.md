@@ -28,6 +28,16 @@ vlocity-build/
 └── dataPackJobs/
   └── DataPack.yaml
 
+    .
+    ├── ...
+    ├── docs                    # Documentation files (alternatively `doc`)
+    │   ├── TOC.md              # Table of contents
+    │   ├── faq.md              # Frequently asked questions
+    │   ├── misc.md             # Miscellaneous information
+    │   ├── usage.md            # Getting started guide
+    │   └── ...                 # etc.
+    └── ...
+
 6. In the `build.properties` file, add the below code.
 ```
 # Salesforce Username and Password + Security Token
