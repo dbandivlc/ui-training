@@ -29,7 +29,7 @@ Before getting started ensure you have Node JS installed : https://nodejs.org/
     └── dataPackJobs                  
         └── DataPack.yaml             # Define Jobs
 
-6. In the `build.properties` file, add the below code.
+8. In the `build.properties` file, add the below code.
 ```
 # Salesforce Username and Password + Security Token
 sf.username = <Username>
@@ -70,6 +70,8 @@ useAllRelationships: false
 supportHeadersOnly: true
 supportForceDeploy: true
 ```
+9. Go to Salesforce -> `Setup` -> In `Quick Find`, Search for : Objects -> `Create` -> `Objects` -> `New Custom Object`
+Create a new object with Label : `CarBrands` and Object Name : `CarBrands`
 8. Run the following command in the terminal
 `vlocity packDeploy -propertyfile build_training.properties -job DataPack.yaml`
 
