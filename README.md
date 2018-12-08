@@ -19,15 +19,15 @@ Before getting started ensure you have Node JS installed : https://nodejs.org/
   Folder Strucure:
 
     vlocity-build
-    ├── build_training.properties
-    ├── Training                    # Documentation files (alternatively `doc`)
-    │   ├── Attachment              # Table of contents
-    │   ├── AttributeCategory              # Frequently asked questions
-    │   ├── DataRaptor             # Miscellaneous information
-    │   ├── OmniScript            # Getting started guide
-    │   └── ...                 # etc.
-    └── dataPackJobs
-        └── DataPack.yaml  
+    ├── build_training.properties     # Login Credentials to the org
+    ├── Training                      # DataPacks
+    │   ├── Attachment                
+    │   ├── AttributeCategory         
+    │   ├── DataRaptor             
+    │   ├── OmniScript            
+    │   └── ...                 
+    └── dataPackJobs                  
+        └── DataPack.yaml             # Define Jobs
 
 6. In the `build.properties` file, add the below code.
 ```
