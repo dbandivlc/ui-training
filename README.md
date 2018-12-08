@@ -5,8 +5,9 @@
 In the OmniScript provided, the user needs to explicitly click on `Search` button, we need to invoke the DataRaptor and get products without hitting the Search button.
 
 1. Deactivate getCars DataRaptor.
-2. Clone the template used for Step and rename it as `omniNewport-vlcTrainingStep`.
-3. Add the Javascript in the JS part of the template
+2. Clone the template used for Step `omniNewport-vlcStep` and rename it as `omniNewport-vlcTrainingStep`.
+3. Update the new template name on the Step.
+4. Add the Javascript in the JS part of the template
 ```
 vlocity.cardframework.registerModule.controller('trainingUIUXFlowStepController', ['$scope', function($scope) {
     $scope.allCars = [];
@@ -22,11 +23,11 @@ vlocity.cardframework.registerModule.controller('trainingUIUXFlowStepController'
     });
 }]);
 ```
-4. Link the controller into the HTML part of the template
+5. Link the controller into the HTML part of the template
 ```
  ng-controller="trainingUIUXFlowStepController"
 ```
-5. Clone the template used for Selectable Item and rename it as `omniNewport-vlcTrainingSelectableItem`.
+6. Clone the template used for Selectable Item `omniNewport-vlcSelectableItem` and rename it as `omniNewport-vlcTrainingSelectableItem`.
 6. Link the controller into the HTML part of the template and update `ng-repeat`
 ```
  ng-controller="trainingUIUXFlowCarSelectController"
