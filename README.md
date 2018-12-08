@@ -24,7 +24,7 @@ vlocity.cardframework.registerModule.controller('trainingUIUXFlowCarSelectContro
 
 3. Invoke a DataRaptor from Angular JS.
 ```
-$scope.bpService.GenericInvoke(className, classMethod, angular.toJson(inputMap), angular.toJson(options)).then(function(result){
+$scope.bpService.GenericInvoke(className, classMethod, angular.toJson(inputMap), '{}').then(function(result){
     $scope.allCars = JSON.parse(result).OBDRresp.selectCar;
 });
 ```
