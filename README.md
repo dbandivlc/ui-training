@@ -8,9 +8,8 @@ For the Vlocity UI Training, please make sure you have the following.
 4. Clone the Newport Design System - https://github.com/vlocityinc/newport-design-system
 
 ## Install Dependencies for Training
-1. Download the datapack `TrainingUIFlow` and push it to Salesforce org using Vlocity Build.
+1. Download the datapack `Training` and push it to Salesforce org using Vlocity Build.
 2. Upload `TrainingImages` into Salesforce Static Resource.
-3. Deploy `TrainingProducts` into Salesforce using Vlocity Build.
 
 ## Cheatsheet
 1. OOTB Templates list
