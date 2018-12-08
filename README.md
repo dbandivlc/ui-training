@@ -15,34 +15,19 @@ Before getting started ensure you have Node JS installed : https://nodejs.org/
 5. Create a folder named `dataPacksJobs` and create Job file : `DataPack.yaml`
 6. Download Training zip file from Groups - Install SetUp DataPack - Vlocity Build.
 7. Extract the folder from Training zipfile and add it in the root folder. 
-vlocity-build/
-|-- Training
-  |-- Attachment
-  |-- AttributeCategory
 
-
-vlocity-build/
-├── Training
-  ├── Attachment
-  ├── AttributeCategory
-  ├── DataRaptor
-  ├── Document
-  ├── Product2
-  ├── SObject_CarBrands
-  └── VlocityUITemplate
-├── build_training.properties
-└── dataPackJobs/
   └── DataPack.yaml
 
-    .
-    ├── ...
-    ├── docs                    # Documentation files (alternatively `doc`)
-    │   ├── TOC.md              # Table of contents
-    │   ├── faq.md              # Frequently asked questions
-    │   ├── misc.md             # Miscellaneous information
-    │   ├── usage.md            # Getting started guide
+    vlocity-build
+    ├── build_training.properties
+    ├── Training                    # Documentation files (alternatively `doc`)
+    │   ├── Attachment              # Table of contents
+    │   ├── AttributeCategory              # Frequently asked questions
+    │   ├── DataRaptor             # Miscellaneous information
+    │   ├── OmniScript            # Getting started guide
     │   └── ...                 # etc.
-    └── ...
+    └── dataPackJobs
+        └── DataPack.yaml  
 
 6. In the `build.properties` file, add the below code.
 ```
