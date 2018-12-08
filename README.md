@@ -28,3 +28,10 @@ BLACK : "#000000"
 6. Find the `.dist` folder and zip the contents inside the folder.
 7. Upload the folder to Static Resource
 8. Reference the folder from your Visualforce Page.
+```
+<apex:stylesheet value="{!URLFOR($Resource.TrainingNDS, 'assets/styles/vlocity-newport-design-system.css')}"/>
+```
+--- OR : Reference inside BusinessProcessComponent ---
+```
+strCSSFileList="[TrainingNDS:/assets/styles/vlocity-newport-design-system.css]"
+```
