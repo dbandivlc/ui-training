@@ -1,48 +1,31 @@
-# Vlocity UI Training
+# Salesforce Communities
 --------
 
-For the Vlocity UI Training, please make sure you have the following.
-1. Install Node JS - https://nodejs.org/en/download/
-2. Install Git - https://git-scm.com/downloads
-3. Install Vlocity Build (Do not clone) - https://github.com/vlocityinc/vlocity_build
-4. Clone the Newport Design System - https://github.com/vlocityinc/newport-design-system
+## Enable Communities
+1. Go to Setup, in the Quick Find, search for `Community Settings`
+2. Under Enable Communities section, click on the checkbox to Enable Communities.
+3. Once checked, under Select a Domain name section, create a unique doamin name. Ex: studentins5431
+4. Click on Save.
 
-## Install Dependencies for Training
-1. Download the datapack `Training` and push it to Salesforce org using Vlocity Build.
-2. Upload `TrainingImages` into Salesforce Static Resource.
+## New Community
+1. Click on `New Community` button on All Communities Page.
+2. Select the `Customer Service` portal.
+3. Click on `Get Started` button to create a Customer Service portal community.
+4. Enter a unique name and url. Ex: Shop
+5. You are all set. Wait for couple of minutes, your community will be set up.
 
-## Cheatsheet
-1. OOTB Templates list
-https://vlocity.atlassian.net/wiki/spaces/OMNI/pages/47054862/OmniScript+OOTB+Templates
+## Community Setup
+1. Go to Setup, in the Quick Find, search for `All Community`
+2. Click on `Builder` to view the Builder view of your community.
+3. Click on the `Settings icon` next to Home on the navigation.
+4. At the bottom of the screen, click on `New Page` -> `Standard Page` -> `1 full-width column` 
+5. For the page name and url, you can specify as `start`
+6. Click on Create button.
 
-2. Referencing a Static Resource in Visualforce Markup
-https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_resources_reference.htm
+## OmniScript Setup on Community
+1. On the left panel, you will see 4 icons, the first icon is `Components`. Search for Vlocity OmniScript in the components section.
+2. Drag and Drop the Vlocity Components into the `content` section of the screen.
+3. On the side panel, select your OmniScript Type, SubType, Language and the visualforce page name that you were using for previous exercises.
+4. Click on Publish.
 
-3. Define a controller and access the dataJSON
-```
-vlocity.cardframework.registerModule.controller('trainingUIUXFlowCarSelectController', ['$scope', function($scope) {
-    console.info($scope.bpTree.response);
-}]);
-```
-
-4. Invoke DataRaptor from Vlocity Templates.
-```
-var className = 'vlocity_ins.DefaultDROmniScriptIntegration';
-var classMethod = 'invokeOutboundDR';  
-var inputMap = {"DRParams":{"Key":$scope.bpTree.response.JSONPath},"Bundle":"DRName"};
-var options = '{}';
-$scope.bpService.GenericInvoke(className, classMethod, angular.toJson(inputMap), options).then(function(result){
-    //result from DataRaptor
-});
-```
-
-5. Invoke Integration Procedure from Vlocity Templates.
-```
-var className = 'vlocity_ins.IntegrationProcedureService';
-var classMethod = '<Type>_<SubType>';  //Type and Subtype of Integration Procedure
-var inputMap = {}; // Input Data
-var options = '{}';
-dataService.doGenericInvoke(className, classMethod, angular.toJson(inputMap), options).then(function(result){
-    //result from Integration Procedure
-});
-```
+## Preview the Page
