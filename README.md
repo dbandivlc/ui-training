@@ -25,7 +25,9 @@
 ## OmniScript Setup on Community
 1. On the left panel, you will see 4 icons, the first icon is `Components`. Search for Vlocity OmniScript in the components section.
 2. Drag and Drop the Vlocity Components into the `content` section of the screen.
-3. On the side panel, select your OmniScript Type, SubType, Language and the visualforce page name that you were using for previous exercises.
+3. On the side panel, select your OmniScript `Type`, `SubType`, `Language`, `Layout` and the `Visualforce Page` name that you were using for previous exercises.
 4. Click on Publish.
 
 ## Preview the Page
+Go back to `Setup` -> Quick Find : `All Communities` -> Click on the url next to your community. 
+Add `/start` to the URL, you should be able to see your OmniScript getting loaded in the Community page.
