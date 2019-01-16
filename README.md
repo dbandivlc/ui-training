@@ -12,6 +12,14 @@ For the UI Test, please make sure you have access to the following links:
 
 Analyze the JSON clearly to understand the Product JSON structure. 
 
+## Tech Stack
+
+You can use any of the following:
+1. Angular
+2. React
+3. Node JS
+4. JavaScript
+
 ## UI Layout
 The UI Screen shared in the wireframe has 3 layout section.
 
