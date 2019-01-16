@@ -1,9 +1,6 @@
 # Interview UI Test
 --------
 
-## Timeline
-You have 48hours from the time you have recieved the email to submit the solution. If you need more time, please send us an email.
-
 ## Links
 
 For the UI Test, please make sure you have access to the following links:
@@ -21,7 +18,7 @@ You can use any of the following:
 4. JavaScript
 
 ## JSON Structure
-Note: The JSON sample data does not match the UI Screen. The JSON has only 1 product in the list.
+
 ```
 {
   "records" : [{
