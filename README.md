@@ -30,3 +30,5 @@ For Ex: Acupuncture Outpatient Institutional, Acupuncture Outpatient Professiona
 
 6. On click of toggle next to Attribute Category, hide the Attribute and reset the values.
 
+## Test Submission
+Please Share the code using Git/BitBucket URL. Do not send Zip Files of the code.
