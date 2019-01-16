@@ -8,9 +8,9 @@ For the Vlocity UI Test, please make sure you have access to the following links
 ## UI Layout
 The UI Screen shared in the wireframe has 3 layout section.
 
-**Left Section - Displays the `Product` List.
-**Middle Section - Displays the `Coverages` that belongs to selected Product.
-**Right Section - Displays the `Attributes` that belongs to selected Coverage.
+1. Left Section - Displays the `Product` List.
+2. Middle Section - Displays the `Coverages` that belongs to selected Product.
+3. Right Section - Displays the `Attributes` that belongs to selected Coverage.
 
 ## Problem Statement
 1. As a user, I need ability to select a `Product`, depending on the product selected, display the `Coverages`. Depending on a coverage selection, display the `Attributes`.
