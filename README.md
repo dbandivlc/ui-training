@@ -1,4 +1,4 @@
-# UI Test
+# Interview UI Test
 --------
 
 For the UI Test, please make sure you have access to the following links:
