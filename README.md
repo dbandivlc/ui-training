@@ -58,13 +58,6 @@ You can use any of the following:
                             "readonly": false,
                             "label": "No",
                             "id": "1"
-                          },
-                          {
-                            "value": "n/a",
-                            "disabled": false,
-                            "readonly": false,
-                            "label": "N/A",
-                            "id": "2"
                           }
                     ],
                     ...
@@ -78,6 +71,18 @@ You can use any of the following:
   }]
 }
 ```
+
+On a very high-level, here is the product json structure:
+
+{
+  Product: [{
+    Coverages : [{
+      AttributeCategory : [{
+        Attribute : {}
+      }]
+    }]
+  }]
+}
 
 ## UI Layout
 The UI Screen shared in the wireframe has 3 layout section.
