@@ -21,7 +21,7 @@ You can use any of the following:
 4. JavaScript
 
 ## JSON Structure
-
+Note: The JSON sample data does not match the UI Screen. The JSON has only 1 product in the list.
 ```
 {
   "records" : [{
@@ -84,7 +84,6 @@ On a very high-level, here is the product json structure:
   }]
 }
 ```
-* Note: The JSON sample data does not match the UI Screen. The JSON has only 1 product in the list.
 
 ## UI Layout
 The UI Screen shared in the wireframe has 3 layout section.
