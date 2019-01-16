@@ -73,7 +73,7 @@ You can use any of the following:
 ```
 
 On a very high-level, here is the product json structure:
-
+```
 {
   Product: [{
     Coverages : [{
@@ -83,6 +83,8 @@ On a very high-level, here is the product json structure:
     }]
   }]
 }
+```
+* Note: The JSON sample data does not match the UI Screen. The JSON has only 1 product in the list.
 
 ## UI Layout
 The UI Screen shared in the wireframe has 3 layout section.
