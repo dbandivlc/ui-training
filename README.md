@@ -20,6 +20,65 @@ You can use any of the following:
 3. Node JS
 4. JavaScript
 
+## JSON Structure
+
+```
+{
+  "records" : [{
+    "productId": "",
+    "Name": "",
+    ...
+    "coverages": {
+      "records": [
+        {
+          "productId" : "",
+          "Name": "",
+          ...
+          "attributeCategories": [
+            "records": [{
+              "Id": "",
+              "Name": "",
+              ...
+              "productAttributes" : {
+                "records": [{
+                   "attributeGroupType": "In-Network",
+                   "inputType": "dropdown",
+                   "userValues": "yes",
+                        "values": [
+                          {
+                            "value": "yes",
+                            "disabled": false,
+                            "readonly": false,
+                            "label": "Yes",
+                            "id": "0"
+                          },
+                          {
+                            "value": "no",
+                            "disabled": false,
+                            "readonly": false,
+                            "label": "No",
+                            "id": "1"
+                          },
+                          {
+                            "value": "n/a",
+                            "disabled": false,
+                            "readonly": false,
+                            "label": "N/A",
+                            "id": "2"
+                          }
+                    ],
+                    ...
+                }]
+              }
+            }]
+          ]
+        }
+      ]
+    }
+  }]
+}
+```
+
 ## UI Layout
 The UI Screen shared in the wireframe has 3 layout section.
 
