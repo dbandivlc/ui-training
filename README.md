@@ -5,7 +5,7 @@
 
 For the UI Test, please make sure you have access to the following links:
 1. JSON Data - Atthaced in the File : Use JSON Blob to view the JSON (https://jsonblob.com/)
-2. Wireframes - https://invis.io/9NPZNTFYGJ2#/341059211_1-_Benefit_Configurator
+2. Wireframes - https://projects.invisionapp.com/share/9NPZNTFYGJ2#/screens/341059211_1-_Benefit_Configurator
 
 Analyze the JSON clearly to understand the Product JSON structure. 
 
